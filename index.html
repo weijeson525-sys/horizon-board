@@ -3,185 +3,45 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Horizon 情报看板 — 2026-11-09（多源合跑轮，真实简报）</title>
+<meta name="robots" content="noindex, nofollow">
+<title>技术简报看板 — 2026-11-09</title>
 <style>
 *{box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;background:#f4f5f7;color:#1a1a1a;line-height:1.6}
-.wrap{max-width:1080px;margin:0 auto;padding:16px}
+.wrap{max-width:800px;margin:0 auto;padding:16px}
 header.top{background:#111827;color:#fff;border-radius:12px;padding:20px}
 header.top h1{margin:0 0 6px;font-size:22px}header.top p{margin:4px 0;color:#d1d5db;font-size:14px}
 .hl{background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:16px 20px;margin:16px 0}
-.hl h2,.sec-title{font-size:17px;margin:0 0 8px}
-.hl ol{margin:0;padding-left:20px}.hl li,.items li{margin:6px 0}
-.controls{display:flex;flex-wrap:wrap;gap:8px;align-items:center;background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:12px 16px;margin:16px 0;position:sticky;top:8px;z-index:5}
-.controls button{border:1px solid #d1d5db;background:#fff;border-radius:999px;padding:6px 12px;cursor:pointer;font-size:14px}
-.controls button.on{background:#111827;color:#fff;border-color:#111827}
-.controls select{padding:6px;border:1px solid #d1d5db;border-radius:8px;font-size:14px}
-.controls .count{margin-left:auto;font-size:13px;color:#6b7280}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px}
-.card{background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:16px}
-.card header{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
-.card h2{font-size:16px;margin:0}.score{font-weight:700;white-space:nowrap}.score small{color:#6b7280;font-weight:400}
-.meta{font-size:13px;color:#6b7280;margin:6px 0 4px}
-.items{list-style:none;margin:0;padding:0;font-size:14px}
+.hl h2{font-size:17px;margin:0 0 8px}
+.hl ol{margin:0;padding-left:20px}.hl li{margin:10px 0}
+.hl .txt{font-size:15px}
 .cat{display:inline-block;min-width:20px;text-align:center;background:#eef2ff;border-radius:4px;padding:0 5px;margin-right:6px;font-size:12px;font-weight:700}
-.src{display:block;font-size:12px;color:#9ca3af;margin-left:26px}
-.empty{color:#9ca3af;font-size:13px}
+.src{display:block;font-size:13px;color:#6b7280;margin:4px 0 0 26px;word-break:break-all}
+.score{font-weight:700;white-space:nowrap}
 footer{margin:20px 0 8px;font-size:13px;color:#6b7280;background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:14px 16px}
 footer strong{color:#111827}
 .disclaimer{border-left:4px solid #f59e0b;padding-left:10px;margin-top:8px}
-@media(max-width:560px){header.top h1{font-size:19px}.wrap{padding:10px}.controls{position:static}}
+@media(max-width:560px){header.top h1{font-size:19px}.wrap{padding:10px}}
 </style>
 </head>
 <body>
 <div class="wrap">
-<header class="top"><h1>Horizon 情报看板 — 2026-11-09（多源合跑轮，真实简报）</h1>
+<header class="top"><h1>技术简报看板 — 2026-11-09</h1>
 <p>只读静态看板 · 单文件、零外部依赖 · 手机/电脑直接打开</p>
-<p>简报周期：本次单次多源合跑轮；常态每天 09时30分 / 21时30分两遍 · 更新时间：2026年11月9日 15时30分（CST，多源合跑轮）</p></header>
+<p>更新日期：2026年11月9日</p></header>
 
-<section class="hl"><h2>今日要点（3–5 条）</h2><ol><li data-cat="D"><span class="cat cat-D">D</span><span class="txt">Llama-modchip：284B DeepSeek 在 64GB 内存、无 GPU 上跑起来（9.0/10）</span><span class="src">来源：https://github.com/synchopate/llama-modchip</span></li>
-<li data-cat="E"><span class="cat cat-E">E</span><span class="txt">Outlook.com 自 11 月 5 日起拒收无 DMARC 记录域名的邮件（8.0/10）</span><span class="src">来源：https://mailroute.net/blog/outlook-rejecting-email-without-dmarc</span></li>
-<li data-cat="F"><span class="cat cat-F">F</span><span class="txt">高盛把 Claude Code 从交易员和银行家手里收回，只留给工程师（8.0/10）</span><span class="src">来源：https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers</span></li>
-<li data-cat="E"><span class="cat cat-E">E</span><span class="txt">仅凭车牌就能远程解锁某品牌汽车：车联网鉴权全链路被打通（7.0/10）</span><span class="src">来源：https://shubs.io/unlocking-any-car-from-x-brand-in-most-of-the-world/</span></li>
-<li data-cat="D"><span class="cat cat-D">D</span><span class="txt">把 agent 写的 PR 描述藏进 details/summary 里（7.0/10）</span><span class="src">来源：https://simonwillison.net/2026/Nov/9/details-summary/</span></li></ol>
-<p style="font-size:13px;color:#6b7280;margin:8px 0 0">说明：要点来自当期 Horizon 简报原文；简报只作阅读过滤器，不是事实核查，重要结论请点开原文核实。</p></section>
-
-<div class="controls" role="group" aria-label="筛选与排序">
-<span>分类筛选：</span>
-<button data-filter="" class="on">全部</button>
-<button data-filter="A">A · 403攻关</button>
-<button data-filter="B">B · 系统升级</button>
-<button data-filter="C">C · 免费福利</button>
-<button data-filter="D">D · 新工具</button>
-<button data-filter="E">E · 安全风险</button>
-<button data-filter="F">F · 交易市场</button>
-<label>排序 <select id="sort"><option value="default">默认顺序</option><option value="score-desc">按评分从高到低</option><option value="score-asc">按评分从低到高</option></select></label>
-<span class="count" id="count"></span>
-</div>
-
-<h2 class="sec-title">13 板块</h2>
-<div class="grid" id="board">
-<section class="card" data-score="9" data-order="0" data-name="整个体系">
-      <header><h2>整个体系</h2><span class="score" title="Profile 评分 0–10">评分 9<small>/10</small></span></header>
-      <p class="meta">本遍 1 条 · 分类 D</p>
-      <ul class="items"><li data-cat="D"><span class="cat cat-D">D</span><span class="txt">Llama-modchip：284B DeepSeek 在 64GB 内存、无 GPU 上跑起来（9.0/10）：v2.4.0 补丁 + 量化转码，284B 压到 56.56 GiB，16 核 Zen 5 上预填充 44.4 tok/s、解码 9.1–14.7 tok/s；30B 级仅 14.35 GiB，25–60.4 tok/s。须隔离实测，不直接信自测分数。</span><span class="src">来源：https://github.com/synchopate/llama-modchip</span></li></ul>
-      <p class="empty" hidden>本分类下无条目。</p>
-    </section>
-<section class="card" data-score="8" data-order="1" data-name="个人系统">
-      <header><h2>个人系统</h2><span class="score" title="Profile 评分 0–10">评分 8<small>/10</small></span></header>
-      <p class="meta">本遍 1 条 · 分类 E</p>
-      <ul class="items"><li data-cat="E"><span class="cat cat-E">E</span><span class="txt">Outlook.com 自 11 月 5 日起拒收无 DMARC 记录域名的邮件（8.0/10）：11 月 5 日起部分拒收，退信 550 5.7.1，波及小发件人、未公告；修复为一条 TXT 记录 _dmarc=v=DMARC1; p=none。建议查一次自有域。</span><span class="src">来源：https://mailroute.net/blog/outlook-rejecting-email-without-dmarc</span></li></ul>
-      <p class="empty" hidden>本分类下无条目。</p>
-    </section>
-<section class="card" data-score="0" data-order="2" data-name="免费福利系统">
-      <header><h2>免费福利系统</h2><span class="score" title="Profile 评分 0–10">评分 —<small>/10</small></span></header>
-      <p class="meta">本遍 0 条 · 分类 —</p>
-      <ul class="items"><li data-cat=""><span class="txt">（本遍无条目）本轮未覆盖该板块。</span></li></ul>
-      <p class="empty" hidden>本分类下无条目。</p>
-    </section>
-<section class="card" data-score="0" data-order="3" data-name="VPN工具专题">
-      <header><h2>VPN工具专题</h2><span class="score" title="Profile 评分 0–10">评分 —<small>/10</small></span></header>
-      <p class="meta">本遍 0 条 · 分类 —</p>
-      <ul class="items"><li data-cat=""><span class="txt">（本遍无条目）本轮未覆盖该板块。</span></li></ul>
-      <p class="empty" hidden>本分类下无条目。</p>
-    </section>
-<section class="card" data-score="7" data-order="4" data-name="Horizon情报">
-      <header><h2>Horizon情报</h2><span class="score" title="Profile 评分 0–10">评分 7<small>/10</small></span></header>
-      <p class="meta">本遍 2 条 · 分类 D</p>
-      <ul class="items"><li data-cat="D"><span class="cat cat-D">D</span><span class="txt">“The Web Is More Than Enough”，Paul Ford（7.0/10）：浏览器本身已是极强应用平台，调用成本持续下降；Simon Willison 当天用 Claude 把 Three.js 作品移植成纯 WebGL 作例证。</span><span class="src">来源：https://ftrain.com/aboard-the-web-is-more-than-enough</span></li>
-<li data-cat="D"><span class="cat cat-D">D</span><span class="txt">SQLite parse_number() 扩展：C 与 Rust 对比（7.0/10）：C 版 14KB，Rust 版约 300KB；Clinger 快速路径优化后 C 版在 200 万行上全面快于 Rust。本条上轮已报过，属重复出现。</span><span class="src">来源：https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/</span></li></ul>
-      <p class="empty" hidden>本分类下无条目。</p>
-    </section>
-<section class="card" data-score="8" data-order="5" data-name="交易专题">
-      <header><h2>交易专题</h2><span class="score" title="Profile 评分 0–10">评分 8<small>/10</small></span></header>
-      <p class="meta">本遍 1 条 · 分类 F</p>
-      <ul class="items"><li data-cat="F"><span class="cat cat-F">F</span><span class="txt">高盛把 Claude Code 从交易员和银行家手里收回，只留给工程师（8.0/10）：10 月指引，约 12,000 名工程师可用，全员约 47,000；原因：未评审的 agent 代码碰客户数据、信息墙、按 token 计费失控；高盛同时是 Anthropic IPO 主承销商。</span><span class="src">来源：https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers</span></li></ul>
-      <p class="empty" hidden>本分类下无条目。</p>
-    </section>
-<section class="card" data-score="0" data-order="6" data-name="女儿视频">
-      <header><h2>女儿视频</h2><span class="score" title="Profile 评分 0–10">评分 —<small>/10</small></span></header>
-      <p class="meta">本遍 0 条 · 分类 —</p>
-      <ul class="items"><li data-cat=""><span class="txt">（本遍无条目）本轮未覆盖该板块。</span></li></ul>
-      <p class="empty" hidden>本分类下无条目。</p>
-    </section>
-<section class="card" data-score="0" data-order="7" data-name="语料训练线">
-      <header><h2>语料训练线</h2><span class="score" title="Profile 评分 0–10">评分 —<small>/10</small></span></header>
-      <p class="meta">本遍 0 条 · 分类 —</p>
-      <ul class="items"><li data-cat=""><span class="txt">（本遍无条目）本轮未覆盖该板块。</span></li></ul>
-      <p class="empty" hidden>本分类下无条目。</p>
-    </section>
-<section class="card" data-score="7" data-order="8" data-name="REA系统">
-      <header><h2>REA系统</h2><span class="score" title="Profile 评分 0–10">评分 7<small>/10</small></span></header>
-      <p class="meta">本遍 1 条 · 分类 E</p>
-      <ul class="items"><li data-cat="E"><span class="cat cat-E">E</span><span class="txt">仅凭车牌就能远程解锁某品牌汽车：车联网鉴权全链路被打通（7.0/10）：车牌→VIN→用户 GUID→JS bundle 里翻出 OpenIDM 管理员凭据→路径穿越绕 WAF→绕过 MFA→铸造任意用户 token→远程解锁。只作防御参考，不复现。</span><span class="src">来源：https://shubs.io/unlocking-any-car-from-x-brand-in-most-of-the-world/</span></li></ul>
-      <p class="empty" hidden>本分类下无条目。</p>
-    </section>
-<section class="card" data-score="0" data-order="9" data-name="推理系统">
-      <header><h2>推理系统</h2><span class="score" title="Profile 评分 0–10">评分 —<small>/10</small></span></header>
-      <p class="meta">本遍 0 条 · 分类 —</p>
-      <ul class="items"><li data-cat=""><span class="txt">（本遍无条目）本轮未覆盖该板块。</span></li></ul>
-      <p class="empty" hidden>本分类下无条目。</p>
-    </section>
-<section class="card" data-score="7" data-order="10" data-name="舰队">
-      <header><h2>舰队</h2><span class="score" title="Profile 评分 0–10">评分 7<small>/10</small></span></header>
-      <p class="meta">本遍 1 条 · 分类 D</p>
-      <ul class="items"><li data-cat="D"><span class="cat cat-D">D</span><span class="txt">把 agent 写的 PR 描述藏进 details/summary 里（7.0/10）：agent 写的 PR 描述准确全面但长到没人读、读起来像 slop；折叠进 details/summary，标题行只留一句话。推仓长说明可直接照做。</span><span class="src">来源：https://simonwillison.net/2026/Nov/9/details-summary/</span></li></ul>
-      <p class="empty" hidden>本分类下无条目。</p>
-    </section>
-<section class="card" data-score="0" data-order="11" data-name="本席自己">
-      <header><h2>本席自己</h2><span class="score" title="Profile 评分 0–10">评分 —<small>/10</small></span></header>
-      <p class="meta">本遍 0 条 · 分类 —</p>
-      <ul class="items"><li data-cat=""><span class="txt">（本遍无条目）本轮未覆盖该板块。</span></li></ul>
-      <p class="empty" hidden>本分类下无条目。</p>
-    </section>
-<section class="card" data-score="0" data-order="12" data-name="老板本人">
-      <header><h2>老板本人</h2><span class="score" title="Profile 评分 0–10">评分 —<small>/10</small></span></header>
-      <p class="meta">本遍 0 条 · 分类 —</p>
-      <ul class="items"><li data-cat=""><span class="txt">（本遍无条目）本轮未覆盖该板块。</span></li></ul>
-      <p class="empty" hidden>本分类下无条目。</p>
-    </section>
-</div>
+<section class="hl"><h2>今日要点（3 条 · 新工具新思路）</h2><ol>
+<li><span class="cat">新工具</span><span class="txt">Qwen 3.8 27B 本地解读神经网络权重</span> <span class="score">8.0/10</span><span class="src">Simon Willison 复现 Weight-Space Programming 研究，本地笔记本 LM Studio 跑 17GB GGUF Q4_K_M，读原始权重认出 Pac-Man 策略网络。</span><span class="src">来源：https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/</span></li>
+<li><span class="cat">新工具</span><span class="txt">视频背景飞机噪音可通过多普勒分析精确定位</span> <span class="score">8.0/10</span><span class="src">分析视频中飞机噪音的多普勒频移曲线，对照公开 ADS-B 航班轨迹，可精确定位拍摄地点，属隐私泄露风险。</span><span class="src">来源：https://simonwillison.net/2026/Nov/3/a-sound-that-leaks-your-exact-location/</span></li>
+<li><span class="cat">新工具</span><span class="txt">SQLite parse_number() 扩展：C 与 Rust 对比</span> <span class="score">7.0/10</span><span class="src">C 版 14KB，Rust 版约 300KB；用 Clinger 快速路径优化后 C 版在 200 万行上全面快于 Rust。</span><span class="src">来源：https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/</span></li>
+</ol>
+<p style="font-size:13px;color:#6b7280;margin:8px 0 0">说明：要点来自当期公开文章摘要；简报只作阅读过滤器，不是事实核查，重要结论请点开原文核实。</p></section>
 
 <footer>
-<p><strong>来源：</strong>Horizon 多源采集（RSS + Hacker News + GitHub + Reddit，24 小时窗口）；GitHub 限额耗尽 0 条、Reddit 连接中断 0 条，见运行报告</p>
-<p><strong>更新时间：</strong>2026年11月9日 15时30分（CST，多源合跑轮） · <strong>简报周期：</strong>本次单次多源合跑轮；常态每天 09时30分 / 21时30分两遍</p>
+<p><strong>来源：</strong>公开文章（Simon Willison，2026-11-03 / 2026-11-08）</p>
+<p><strong>更新日期：</strong>2026年11月9日</p>
 <p class="disclaimer"><strong>免责声明：</strong>简报只作阅读过滤器，不是事实核查。论文警告 LLM 摘要易幻觉（多文档场景高达 75% 内容被标幻觉），重要结论请点开原文核实后再用。</p>
-<p>成本 $0 · 未联网取数 · 未部署对外服务 · GitHub Pages 公开上线须另批。</p>
+<p>成本 $0 · 单文件静态页 · 未部署对外服务前请勿转载。</p>
 </footer>
 </div>
-<script>
-(function(){
-var btns=document.querySelectorAll(".controls button"),sel=document.getElementById("sort"),
-grid=document.getElementById("board"),count=document.getElementById("count"),filter="";
-function apply(){
-  var shownCards=0,shownItems=0;
-  document.querySelectorAll("#board .card").forEach(function(card){
-    var vis=0;
-    card.querySelectorAll(".items li").forEach(function(li){
-      var ok=!filter||li.dataset.cat===filter;
-      li.style.display=ok?"":"none"; if(ok)vis++;
-    });
-    card.querySelector(".empty").hidden=vis>0;
-    card.style.display=vis>0?"":"none"; if(vis>0){shownCards++;shownItems+=vis;}
-  });
-  document.querySelectorAll(".hl li").forEach(function(li){
-    li.style.display=!filter||li.dataset.cat===filter||!li.dataset.cat?"":"none";
-  });
-  count.textContent="显示 "+shownCards+" 个板块 · "+shownItems+" 条";
-}
-function sortBoard(){
-  var cards=Array.from(grid.children),mode=sel.value;
-  if(mode==="score-desc")cards.sort(function(a,b){return parseFloat(b.dataset.score)-parseFloat(a.dataset.score);});
-  else if(mode==="score-asc")cards.sort(function(a,b){return parseFloat(a.dataset.score)-parseFloat(b.dataset.score);});
-  else cards.sort(function(a,b){return parseInt(a.dataset.order)-parseInt(b.dataset.order);});
-  cards.forEach(function(c){grid.appendChild(c);});
-}
-btns.forEach(function(b){b.addEventListener("click",function(){
-  btns.forEach(function(x){x.classList.remove("on");}); b.classList.add("on");
-  filter=b.dataset.filter; apply();
-});});
-sel.addEventListener("change",sortBoard);
-apply();
-})();
-</script>
 </body>
 </html>
